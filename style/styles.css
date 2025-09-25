@@ -35,7 +35,7 @@ font-size:1.2em; /*размер*/
 	width: 300px;
 	height: 120px;
 	background: #ffffff;
-	border: 2px solid #0489aa;
+	border: 2px solid #ffffff;
 	padding: 10px;
 }
 .pod{
@@ -51,16 +51,26 @@ font-size:1.2em; /*размер*/
 	width: 300px;
 	height: 120px;
 	background: #ffffff;
-	border: 2px solid #6b6a6a;
+	border: 2px solid #ffffff;
 	padding: 10px;
 }
 
 .menu{
 	display: inline-block;
 	background: #000000;
-	color: #8f0707;
+	color: #3700ff;
 	padding:10px 20px;
 	border-radius: 6px;
-	text-decoration: rgb(255, 255, 255);
+	text-decoration: rgb(211, 0, 0);
 	margin-right: 10px;
+}
+.button{
+	background-color: aqua;
+	color:azure;
+	padding:15px 25px;
+	text-decoration: none;
+	border-radius: 40px;
+}
+.button:hover {
+	background-color: firebrick;
 }
